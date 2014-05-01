@@ -1,0 +1,23 @@
+@(loginForm: Form[LoginForm], message: String)
+@import helper._
+
+@title = {
+    Form Demo in Play2.0
+}
+
+@main(title) {
+    <h1>Login</h1>
+    @form(action = routes.Signin.authenticate) {
+        @inputText(
+                loginForm("email"), '_label -> "Email ",
+                '_help -> "Enter a valid email address."
+            )
+            
+            @inputPassword(
+                loginForm("password"), 
+                '_label -> "Password",
+                '_help -> "A password must be at least 6 characters. "
+            )
+        <input type="submit" value="submit">
+    }
+}
