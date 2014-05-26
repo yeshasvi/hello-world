@@ -35,7 +35,7 @@ object Signin extends Controller {
             print(userEntity.password)
             if(SecurePasswordHashing.validatePassword(password, userEntity.password)) {
               print("matched")
-              Ok(views.html.userDetail(userEntity))  
+              Ok(views.html.userDetail(userEntity)).withSession("connected" -> userEntity.email);  
             } else {
               Ok(views.html.login(loginForm, "Invalid Credentials"))
             }
