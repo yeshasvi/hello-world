@@ -13,3 +13,4 @@ ror/config/database.yml
 log/*.log
 pkg/
 Gemfile.lock
+.project
