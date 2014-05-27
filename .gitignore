@@ -8,3 +8,8 @@ node_modules/
 .swp
 .projects/
 .plugins/
+ror/config/database.yml
+.bundle/
+log/*.log
+pkg/
+Gemfile.lock
