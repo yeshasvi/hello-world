@@ -1,0 +1,22 @@
+{
+  "name": "visualization-with-d3-raphaeljs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yashprit/hello-world",
+  "description": "Sample algorithm tried using d3",
+  "main": "index.html",
+  "authors": [
+    "Yashprit Singh"
+  ],
+  "license": "FCK",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+"dependencies": {
+   "d3":"",
+"raphael":""
+}
+}

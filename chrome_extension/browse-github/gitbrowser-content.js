@@ -110,7 +110,7 @@
 
 	$(document).ready(function() {
 		
-		var gitKeyword = ['wiki', 'issues', 'pulls','pulse','graphs','network','settings' ];
+		var gitKeyword = ['wiki', 'issues', 'pulls','pulse','graphs','network','settings','commits' ];
 		
 		var repoKeys = ['tree', 'master']
 
