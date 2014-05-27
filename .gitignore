@@ -4,4 +4,7 @@
 target/
 logs/
 node_modules/
-/.metadata/
+.metadata/
+.swp
+.projects/
+.plugins/
